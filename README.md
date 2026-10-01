@@ -9,21 +9,39 @@ It allows users to browse clothing categories, select sizes, add items to a cart
 
 - 🔐 **User Authentication** (Signup/Login with JWT)  
 - 🛒 **Cart Management** (add, update, remove items)  
-- 📦 **Rent & Checkout System**  
+- 📦 **Product Browsing and Rental Workflow**  
 - 📱 **Responsive Frontend** with React  
-- ⚡ **RESTful APIs** for products, users, and orders  
+- ⚡ **RESTful APIs** for products, users, authentication, and cart operations 
 - 🗄️ **MongoDB Database** for data persistence  
-- 🛠️ **Admin Dashboard** to manage products, users, and rental orders  
+- 🛠️ **Admin Dashboard** to manage product listings and inventory 
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, CSS, Tailwind (if used)  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB  
-- **Authentication**: JWT  
-- **Other Tools**: Git, REST API  
+- **Frontend**: React.js, JavaScript, HTML, CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB, Mongoose
+- **Authentication**: JWT
+- **Other Tools**: Git, GitHub, REST APIs, Multer
+
+---
+
+## 📸 Screenshots
+
+Project screenshots are available in the [`Screenshots`](./Screenshots) folder.
+
+The folder includes screenshots of:
+
+- Home page
+- Men, Women, and Kids category pages
+- Login / Signup / Reset Password screens
+- Product display pages
+- Cart and checkout flow
+- Admin dashboard
+- Add Product and Product List screens
+
+These screenshots demonstrate the main user and admin workflows of the application.
 
 ---
 
@@ -32,8 +50,8 @@ It allows users to browse clothing categories, select sizes, add items to a cart
 Clone the repository:
 
 ```bash
-git clone https://github.com/navvvyyaa/cloth-rental-ecommerce.git
-cd cloth-rental-ecommerce
+git clone https://github.com/ayyuuushh/cloth-rental-website.git
+cd cloth-rental-website
 ```
 
 ### Backend Setup
@@ -41,7 +59,7 @@ cd cloth-rental-ecommerce
 ```bash
 cd backend
 npm install
-npm start
+node index.js
 ```
 
 ### Frontend Setup
@@ -54,7 +72,9 @@ npm start
 
 The application should now be running at:
 👉 **Frontend:** [http://localhost:3000](http://localhost:3000)
-👉 **Backend:** [http://localhost:5000](http://localhost:5000)
+👉 **Backend:** [http://localhost:4000](http://localhost:4000)
+
+> A valid MongoDB connection is required for the backend to access application data.
 
 ---
 
@@ -66,7 +86,7 @@ The application should now be running at:
 
 ---
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
 **Ayush Kumar**
 
